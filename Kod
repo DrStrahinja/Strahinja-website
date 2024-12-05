@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Strahinja Škobo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #0056a3;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            background: #003b74;
+            padding: 0.5rem;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: #0056a3;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            background: #003b74;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        footer a {
+            color: #ffda44;
+            text-decoration: none;
+        }
+        .projects, .blog, .vlog {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dr. Strahinja Škobo</h1>
+    <p>Empowering Medical Students with Clinical Expertise</p>
+</header>
+
+<nav>
+    <a href="#bio">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#vlog">Vlog</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="bio">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am Dr. Strahinja Škobo, a passionate medical educator dedicated to teaching clinical skills and empowering the next generation of healthcare professionals. My mission is to make complex medical concepts accessible and engaging through innovative teaching techniques and modern technology.
+        </p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>Clinical Skills Workshop</h3>
+            <p>A hands-on program designed to improve practical skills for medical students.</p>
+        </div>
+        <div class="card">
+            <h3>Interactive Case Studies</h3>
+            <p>An online platform where students can explore real-world medical scenarios.</p>
+        </div>
+        <div class="card">
+            <h3>Medical Education Podcast</h3>
+            <p>Discussing advancements and challenges in modern medical training.</p>
+        </div>
+    </div>
+</section>
+
+<section id="vlog">
+    <h2>Vlog</h2>
+    <div class="vlog">
+        <div class="card">
+            <h3>Episode 1: Mastering the Basics</h3>
+            <p>An introduction to fundamental clinical skills every student should know.</p>
+        </div>
+        <div class="card">
+            <h3>Episode 2: The Art of Patient Communication</h3>
+            <p>Techniques to build trust and gather critical information from patients.</p>
+        </div>
+        <div class="card">
+            <h3>Episode 3: Managing Time Effectively</h3>
+            <p>Balancing academic and clinical responsibilities in medical school.</p>
+        </div>
+    </div>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <div class="blog">
+        <div class="card">
+            <h3>Breaking Down Complex Diagnoses</h3>
+            <p>Tips to approach challenging clinical cases with confidence.</p>
+        </div>
+        <div class="card">
+            <h3>Top Resources for Medical Students</h3>
+            <p>A curated list of tools and books to aid learning.</p>
+        </div>
+        <div class="card">
+            <h3>Learning from Mistakes</h3>
+            <p>Reflections on the importance of resilience in medicine.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Have questions or want to collaborate? Feel free to reach out!</p>
+        <p>Email: <a href="mailto:strahinja@example.com">strahinja@example.com</a></p>
+        <p>Follow me on <a href="#">LinkedIn</a> or <a href="#">Twitter</a>.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Dr. Strahinja Škobo. Built with care for medical education.</p>
+</footer>
+
+</body>
+</html>
